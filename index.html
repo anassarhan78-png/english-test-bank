@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>بنك الاختبارات - اللغة الإنجليزية</title>
+    <title>بنك الاختبارات - شامل + مفردات</title>
     <style>
         * {
             margin: 0;
@@ -22,8 +22,38 @@
             margin: auto;
             background: white;
             border-radius: 20px;
-            padding: 25px;
+            padding: 0;
             box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        /* شريط التبويب */
+        .tab-bar {
+            display: flex;
+            background: #f0f2f5;
+            border-bottom: 2px solid #ddd;
+        }
+        .tab {
+            flex: 1;
+            text-align: center;
+            padding: 15px 10px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: 0.2s;
+            background: #f0f2f5;
+            color: #2c3e6d;
+        }
+        .tab i {
+            margin-left: 8px;
+        }
+        .tab.active {
+            background: white;
+            color: #007bff;
+            border-bottom: 3px solid #007bff;
+            border-radius: 20px 20px 0 0;
+        }
+        .content {
+            padding: 25px;
         }
         h1 {
             text-align: center;
@@ -119,28 +149,39 @@
             margin-top: 20px;
             font-size: 0.8rem;
             color: #666;
+            padding-bottom: 20px;
         }
         @media (max-width: 600px) {
-            .container { padding: 15px; }
+            .content { padding: 15px; }
             .question { font-size: 1.1rem; }
+            .tab { font-size: 0.9rem; }
         }
     </style>
+    <!-- Font Awesome للأيقونات -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 <div class="container">
-    <h1>📝 بنك الاختبارات التفاعلي</h1>
-    <div class="progress" id="progress"></div>
-    <div id="quiz-container"></div>
-    <div style="text-align: center; margin-top: 20px;">
-        <button id="submit-btn">إرسال الإجابة ✅</button>
-        <button id="next-btn" style="display:none;">السؤال التالي ➡️</button>
+    <div class="tab-bar">
+        <div class="tab active" data-mode="full"><i class="fas fa-database"></i> الاختبار الشامل</div>
+        <div class="tab" data-mode="vocab"><i class="fas fa-book-open"></i> اختبار المفردات (معاني)</div>
     </div>
-    <div id="result"></div>
-    <footer>كل سؤال يظهر شرحاً مفصلاً للإجابة الخاطئة لمساعدتك على التعلم</footer>
+    <div class="content">
+        <h1 id="mode-title"><i class="fas fa-graduation-cap"></i> بنك الأسئلة التفاعلي</h1>
+        <div class="progress" id="progress"></div>
+        <div id="quiz-container"></div>
+        <div style="text-align: center; margin-top: 20px;">
+            <button id="submit-btn">إرسال الإجابة ✅</button>
+            <button id="next-btn" style="display:none;">السؤال التالي ➡️</button>
+        </div>
+        <div id="result"></div>
+        <footer>✨ اختر الوضع المناسب: شامل (قواعد + قراءة + إملاء) أو مفردات فقط ✨</footer>
+    </div>
 </div>
 
 <script>
     let questions = [];
+    let currentMode = 'full'; // 'full' or 'vocab'
     let currentIndex = 0;
     let selectedAnswer = null;
     let quizContainer = document.getElementById('quiz-container');
@@ -148,25 +189,40 @@
     let nextBtn = document.getElementById('next-btn');
     let progressDiv = document.getElementById('progress');
     let resultDiv = document.getElementById('result');
+    let modeTitle = document.getElementById('mode-title');
 
-    // تحميل الأسئلة من ملف JSON
     async function loadQuestions() {
+        const fileName = (currentMode === 'full') ? 'questions.json' : 'vocabulary.json';
         try {
-            const response = await fetch('questions.json');
-            if (!response.ok) throw new Error('لم يتم العثور على ملف questions.json');
+            const response = await fetch(fileName);
+            if (!response.ok) throw new Error(`الملف ${fileName} غير موجود`);
             questions = await response.json();
             if (questions.length === 0) throw new Error('الملف فارغ');
-            // التأكد من أن كل سؤال له حقل explanation (إذا لم يكن موجوداً نضيفه افتراضياً)
+            // التأكد من وجود explanation لكل خيار
             questions.forEach((q, idx) => {
                 if (!q.explanation) q.explanation = {};
-                for (let opt of ['A','B','C','D']) {
-                    if (!q.explanation[opt]) q.explanation[opt] = "تأمل الخيارات جيداً.";
-                }
+                const letters = ['A','B','C','D'];
+                letters.forEach(letter => {
+                    if (!q.explanation[letter]) q.explanation[letter] = "تأمل الخيارات جيداً.";
+                });
             });
+            currentIndex = 0;
+            selectedAnswer = null;
+            updateTitle();
             showQuestion();
         } catch (err) {
-            quizContainer.innerHTML = `<div style="color:red; padding:20px;">⚠️ خطأ في تحميل الأسئلة: ${err.message}. تأكد من وجود ملف questions.json بصيغة صحيحة.</div>`;
+            quizContainer.innerHTML = `<div style="color:red; padding:20px;">⚠️ خطأ في تحميل الأسئلة: ${err.message}. تأكد من وجود ملف ${fileName} بصيغة صحيحة.</div>`;
             console.error(err);
+        }
+    }
+
+    function updateTitle() {
+        if (currentMode === 'full') {
+            modeTitle.innerHTML = '<i class="fas fa-database"></i> بنك الأسئلة الشامل';
+            progressDiv.style.display = 'block';
+        } else {
+            modeTitle.innerHTML = '<i class="fas fa-book-open"></i> اختبار المفردات (معاني الكلمات)';
+            progressDiv.style.display = 'block';
         }
     }
 
@@ -177,7 +233,6 @@
         }
         const q = questions[currentIndex];
         progressDiv.innerText = `السؤال ${currentIndex+1} من ${questions.length}`;
-        // عرض السؤال والخيارات
         let optionsHtml = '';
         const letters = ['A', 'B', 'C', 'D'];
         q.options.forEach((opt, idx) => {
@@ -189,15 +244,13 @@
             <div class="options">${optionsHtml}</div>
             <div id="feedback"></div>
         `;
-        // إضافة حدث النقر على الخيارات
         document.querySelectorAll('.option').forEach(opt => {
-            opt.addEventListener('click', (e) => {
+            opt.addEventListener('click', () => {
                 document.querySelectorAll('.option').forEach(o => o.classList.remove('selected'));
                 opt.classList.add('selected');
                 selectedAnswer = opt.getAttribute('data-letter');
             });
         });
-        // إخفاء نتيجة سابقة
         resultDiv.innerHTML = '';
         submitBtn.style.display = 'inline-block';
         nextBtn.style.display = 'none';
@@ -212,7 +265,7 @@
         const q = questions[currentIndex];
         const isCorrect = (selectedAnswer === q.correct);
         const feedbackDiv = document.getElementById('feedback');
-        const explanation = q.explanation[selectedAnswer] || "لا يوجد شرح تفصيلي لهذا الخيار.";
+        const explanation = q.explanation[selectedAnswer] || "لا يوجد شرح تفصيلي.";
         const correctExplanation = q.explanation[q.correct] || `الإجابة الصحيحة هي ${q.correct}.`;
         
         if (isCorrect) {
@@ -241,9 +294,22 @@
         resultDiv.innerHTML = '';
     }
 
+    // التبديل بين الوضعين
+    document.querySelectorAll('.tab').forEach(tab => {
+        tab.addEventListener('click', () => {
+            const mode = tab.getAttribute('data-mode');
+            if (mode === currentMode) return;
+            currentMode = mode;
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            tab.classList.add('active');
+            loadQuestions();
+        });
+    });
+
     submitBtn.addEventListener('click', checkAnswer);
     nextBtn.addEventListener('click', nextQuestion);
 
+    // تحميل أولي
     loadQuestions();
 </script>
 </body>
