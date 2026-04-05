@@ -1,0 +1,1102 @@
+[
+  {
+    "text": "Sarah looked at the dark clouds, grabbed her umbrella, and left quickly. What can we infer?",
+    "options": ["It is sunny", "It might rain", "She is late", "She lost something"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: لو كان الجو مشمساً، لما احتاجت إلى مظلة.",
+      "B": "✅ صحيح: الغيوم الداكنة والمظلة تشيران إلى احتمال هطول المطر.",
+      "C": "غير صحيح: النص لم يذكر أي شيء عن التأخر.",
+      "D": "غير صحيح: لا يوجد دليل على فقدان شيء."
+    }
+  },
+  {
+    "text": "Tom slammed the door, crossed his arms, and refused to speak to anyone. What does this suggest?",
+    "options": ["He is tired", "He is happy", "He is upset", "He is hungry"],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: التعب لا يسبب عادة غلق الباب بعنف وعقد الذراعين.",
+      "B": "غير صحيح: الشخص السعيد لا يتصرف بهذه الطريقة.",
+      "C": "✅ صحيح: هذه كلها علامات على الغضب أو الانزعاج.",
+      "D": "غير صحيح: الجوع لا يرتبط بهذه التصرفات تحديداً."
+    }
+  },
+  {
+    "text": "The ground is wet, the sky is cloudy, and people are carrying umbrellas. What most likely happened?",
+    "options": ["It snowed", "It rained", "It is windy", "It is hot"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: الثلج قد يبلل الأرض، لكن الناس نادراً ما يحملون مظلات للثلج.",
+      "B": "✅ صحيح: المطر هو التفسير الأكثر منطقية للأرض المبتلة والمظلات.",
+      "C": "غير صحيح: الرياح وحدها لا تبلل الأرض.",
+      "D": "غير صحيح: الجو الحار لا يتوافق مع حمل المظلات."
+    }
+  },
+  {
+    "text": "Ali studied all night for his test and kept yawning during class the next day. What can we infer?",
+    "options": ["He is excited", "He is bored", "He is tired", "He is hungry"],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: الإثارة لا تسبب التثاؤب.",
+      "B": "غير صحيح: قد يكون التثاؤب من الملل لكن الدراسة طوال الليل تشير إلى الإرهاق.",
+      "C": "✅ صحيح: السهر يسبب التعب والتثاؤب.",
+      "D": "غير صحيح: الجوع ليس له علاقة بالسهر."
+    }
+  },
+  {
+    "text": "The lights are off, the doors are locked, and no cars are in the driveway. What does this suggest?",
+    "options": ["Someone is cooking", "The house is empty", "A party is happening", "Someone is sleeping"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: الطبخ يتطلب وجود شخص وإضاءة.",
+      "B": "✅ صحيح: الأضواء مطفية، الأبواب مقفلة، ولا سيارات يعني المنزل خالٍ.",
+      "C": "غير صحيح: الحفلة تحتاج أضواء وسيارات.",
+      "D": "غير صحيح: النوم لا يمنع وجود سيارات في الممر."
+    }
+  },
+  {
+    "text": "She wore a thick coat, gloves, and a scarf before going outside. What can we infer about the weather?",
+    "options": ["It is cold", "It is hot", "It is raining", "It is windy"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: ارتداء معطف سميك وقفازات ووشاح يدل على أن الجو بارد.",
+      "B": "غير صحيح: الجو الحار لا يتطلب كل هذه الملابس.",
+      "C": "غير صحيح: المطر قد يتطلب مظلة، لكن ليس بالضرورة معطفاً سميكاً.",
+      "D": "غير صحيح: الرياح وحدها لا تستدعي كل هذه الطبقات."
+    }
+  },
+  {
+    "text": "The baby is crying loudly and reaching toward the bottle on the table. What can we infer?",
+    "options": ["It is sleeping", "It may be hungry", "It is playing", "It is laughing"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: الطفل النائم لا يبكي.",
+      "B": "✅ صحيح: البكاء والوصول إلى الزجاجة يدلان على الجوع.",
+      "C": "غير صحيح: اللعب لا يسبب هذا البكاء.",
+      "D": "غير صحيح: الضحك عكس البكاء."
+    }
+  },
+  {
+    "text": "He kept checking his watch and looking toward the door again and again. What does this show?",
+    "options": ["He is relaxed", "He is in a hurry", "He is sleeping", "He is reading"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: الشخص المسترخي لا يتحقق من ساعته مراراً.",
+      "B": "✅ صحيح: التحقق المتكرر من الساعة والنظر إلى الباب يدل على الاستعجال أو الانتظار.",
+      "C": "غير صحيح: النائم لا يفعل ذلك.",
+      "D": "غير صحيح: القراءة لا تتطلب هذا السلوك."
+    }
+  },
+  {
+    "text": "The teacher smiled, nodded, and placed a gold star on her paper. What can we infer?",
+    "options": ["She failed", "She did well", "She was late", "She forgot homework"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: الفشل لا يكافأ بنجمة ذهبية.",
+      "B": "✅ صحيح: الابتسامة والإيماء والنجمة الذهبية تدل على أداء جيد.",
+      "C": "غير صحيح: التأخر لا يسبب هذا التفاعل الإيجابي.",
+      "D": "غير صحيح: نسيان الواجب لا يكافأ."
+    }
+  },
+  {
+    "text": "The car suddenly stopped in the middle of the road, and smoke began coming from the engine. What does this suggest?",
+    "options": ["It is new", "It is broken", "It is clean", "It is fast"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: السيارة الجديدة لا يتصاعد منها دخان عادة.",
+      "B": "✅ صحيح: توقف السيارة والدخان من المحرك يدلان على عطل.",
+      "C": "غير صحيح: النظافة لا علاقة لها.",
+      "D": "غير صحيح: السرعة لا تسبب هذا الدخان بالضرورة."
+    }
+  },
+  {
+    "text": "In a story, what do we call the part where the characters and setting are first introduced?",
+    "options": ["Resolution", "Climax", "Introduction", "Conflict"],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: الحل (Resolution) يأتي في النهاية.",
+      "B": "غير صحيح: الذروة (Climax) هي لحظة التشويق العظمى.",
+      "C": "✅ صحيح: المقدمة (Introduction) هي حيث يتم تعريف الشخصيات والمكان.",
+      "D": "غير صحيح: الصراع (Conflict) هو المشكلة الرئيسية."
+    }
+  },
+  {
+    "text": "Which part of the story usually contains the most excitement and tension for the reader?",
+    "options": ["Setting", "Climax", "Ending", "Problem"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: الإعداد (Setting) هو المكان والزمان.",
+      "B": "✅ صحيح: الذروة (Climax) هي الجزء الأكثر تشويقاً وتوتراً.",
+      "C": "غير صحيح: النهاية (Ending) تحل الأمور.",
+      "D": "غير صحيح: المشكلة (Problem) قد تكون مثيرة لكن الذروة أكثر."
+    }
+  },
+  {
+    "text": "What is the name of the main problem that the characters must face in a story?",
+    "options": ["Resolution", "Conflict", "Theme", "Plot"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: الحل (Resolution) هو معالجة المشكلة.",
+      "B": "✅ صحيح: الصراع (Conflict) هو المشكلة الرئيسية التي تواجه الشخصيات.",
+      "C": "غير صحيح: الموضوع (Theme) هو الرسالة أو الدرس.",
+      "D": "غير صحيح: الحبكة (Plot) هي تسلسل الأحداث."
+    }
+  },
+  {
+    "text": "What do we call the part of the story where the problem is solved and everything becomes clear?",
+    "options": ["Climax", "Conflict", "Resolution", "Setting"],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: الذروة (Climax) هي ذروة التوتر وليس الحل.",
+      "B": "غير صحيح: الصراع (Conflict) هو المشكلة نفسها.",
+      "C": "✅ صحيح: الحل (Resolution) هو حيث يتم حل المشكلة.",
+      "D": "غير صحيح: الإعداد (Setting) هو الزمان والمكان."
+    }
+  },
+  {
+    "text": "What do we call the time and place where a story happens?",
+    "options": ["Plot", "Setting", "Theme", "Conflict"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: الحبكة (Plot) هي الأحداث.",
+      "B": "✅ صحيح: الإعداد (Setting) هو الزمان والمكان.",
+      "C": "غير صحيح: الموضوع (Theme) هو الرسالة.",
+      "D": "غير صحيح: الصراع (Conflict) هو المشكلة."
+    }
+  },
+  {
+    "text": "Who are the people, animals, or figures that take part in the story?",
+    "options": ["Places", "Events", "People in the story", "Problems"],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: الأماكن (Places) جزء من الإعداد.",
+      "B": "غير صحيح: الأحداث (Events) جزء من الحبكة.",
+      "C": "✅ صحيح: الأشخاص في القصة هم الشخصيات (Characters).",
+      "D": "غير صحيح: المشاكل (Problems) هي الصراعات."
+    }
+  },
+  {
+    "text": "What is the sequence of events that happen from beginning to end in a story called?",
+    "options": ["Theme", "Plot", "Setting", "Resolution"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: الموضوع (Theme) هو الرسالة.",
+      "B": "✅ صحيح: الحبكة (Plot) هي تسلسل الأحداث.",
+      "C": "غير صحيح: الإعداد (Setting) هو الزمان والمكان.",
+      "D": "غير صحيح: الحل (Resolution) هو نهاية المشكلة."
+    }
+  },
+  {
+    "text": "What do we call the main message or lesson that the writer wants to teach the reader?",
+    "options": ["Theme", "Setting", "Character", "Conflict"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: الموضوع (Theme) هو الرسالة الأساسية أو الدرس.",
+      "B": "غير صحيح: الإعداد (Setting) هو المكان والزمان.",
+      "C": "غير صحيح: الشخصية (Character) هي من يقوم بالحدث.",
+      "D": "غير صحيح: الصراع (Conflict) هو المشكلة."
+    }
+  },
+  {
+    "text": "Which part of the story is known as the turning point where things begin to change?",
+    "options": ["Resolution", "Beginning", "Climax", "Setting"],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: الحل (Resolution) يحدث بعد التغيير.",
+      "B": "غير صحيح: البداية (Beginning) تقدم الشخصيات والمكان.",
+      "C": "✅ صحيح: الذروة (Climax) هي نقطة التحول.",
+      "D": "غير صحيح: الإعداد (Setting) هو الخلفية."
+    }
+  },
+  {
+    "text": "In most stories, what usually happens in the middle section?",
+    "options": ["Solution", "Conflict developing", "Ending", "Title"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: الحل (Solution) يأتي في النهاية غالباً.",
+      "B": "✅ صحيح: في الوسط يتطور الصراع وتتصاعد الأحداث.",
+      "C": "غير صحيح: النهاية (Ending) تأتي في آخر القصة.",
+      "D": "غير صحيح: العنوان (Title) يكون في البداية."
+    }
+  },
+  {
+    "text": "Which pair shows a Part to Whole relationship?",
+    "options": ["Teacher: School", "Fire: Hot", "Wheel: Car", "Knife: Cut"],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: المعلم والمدرسة علاقة فرد بمكان، وليس جزء إلى كل.",
+      "B": "غير صحيح: النار والحرارة علاقة سبب ونتيجة.",
+      "C": "✅ صحيح: العجلة جزء من السيارة (Part to Whole).",
+      "D": "غير صحيح: السكين والقطع علاقة أداة وفعل."
+    }
+  },
+  {
+    "text": "Which pair shows a Cause and Effect relationship?",
+    "options": ["Rain: Wet ground", "Book: Page", "Doctor: Hospital", "Big: Small"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: المطر يسبب بلل الأرض (سبب ونتيجة).",
+      "B": "غير صحيح: الكتاب والصفحة جزء إلى كل.",
+      "C": "غير صحيح: الطبيب والمستشفى فرد ومكان.",
+      "D": "غير صحيح: كبير وصغير علاقة تضاد (Antonyms)."
+    }
+  },
+  {
+    "text": "Which pair shows an Item to Category relationship?",
+    "options": ["Car: Drive", "Chair: Wood", "Pen: Write", "Apple: Fruit"],
+    "correct": "D",
+    "explanation": {
+      "A": "غير صحيح: السيارة والقيادة أداة وفعل.",
+      "B": "غير صحيح: الكرسي والخشب شيء ومادة خام.",
+      "C": "غير صحيح: القلم والكتابة أداة وفعل.",
+      "D": "✅ صحيح: التفاحة تنتمي لفئة الفواكه (Item to Category)."
+    }
+  },
+  {
+    "text": "Which pair shows Synonyms (same meaning)?",
+    "options": ["Big: Large", "Hot: Cold", "Run: Walk", "Happy: Sad"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: Big و Large مترادفان (كبير).",
+      "B": "غير صحيح: Hot و Cold متضادان.",
+      "C": "غير صحيح: Run و Walk مختلفان في السرعة.",
+      "D": "غير صحيح: Happy و Sad متضادان."
+    }
+  },
+  {
+    "text": "Which pair shows Antonyms (opposites)?",
+    "options": ["Fast: Quick", "Tall: Short", "Begin: Start", "Small: Little"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: Fast و Quick مترادفان.",
+      "B": "✅ صحيح: Tall و Short متضادان (طويل وقصير).",
+      "C": "غير صحيح: Begin و Start مترادفان.",
+      "D": "غير صحيح: Small و Little مترادفان."
+    }
+  },
+  {
+    "text": "Which pair shows a Part to Whole relationship?",
+    "options": ["Teacher: Teach", "Sun: Shine", "Page: Book", "Cold: Ice"],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: المعلم والتعليم فرد وفعل.",
+      "B": "غير صحيح: الشمس والإشراق سبب ونتيجة.",
+      "C": "✅ صحيح: الصفحة جزء من الكتاب.",
+      "D": "غير صحيح: البرد والثلج صفة ومادة."
+    }
+  },
+  {
+    "text": "Which pair shows Cause and Effect?",
+    "options": ["Study: Good grades", "Cat: Animal", "Pen: Ink", "Table: Wood"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: الدراسة تسبب درجات جيدة.",
+      "B": "غير صحيح: القطة والحيوان فرد وفئة.",
+      "C": "غير صحيح: القلم والحبر أداة ومادة.",
+      "D": "غير صحيح: الطاولة والخشب شيء ومادة خام."
+    }
+  },
+  {
+    "text": "Which pair shows Item to Category?",
+    "options": ["Carrot: Vegetable", "Shoe: Foot", "Dog: Bark", "Cold: Winter"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: الجزر ينتمي لفئة الخضروات.",
+      "B": "غير صحيح: الحذاء والقدم شيء وجزء من الجسم.",
+      "C": "غير صحيح: الكلب والنباح حيوان وصوت.",
+      "D": "غير صحيح: البرد والشتاء صفة وفصل."
+    }
+  },
+  {
+    "text": "Which pair shows Synonyms?",
+    "options": ["Angry: Mad", "Happy: Sad", "Fast: Slow", "Open: Close"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: Angry و Mad مترادفان (غاضب).",
+      "B": "غير صحيح: Happy و Sad متضادان.",
+      "C": "غير صحيح: Fast و Slow متضادان.",
+      "D": "غير صحيح: Open و Close متضادان."
+    }
+  },
+  {
+    "text": "Which pair shows Antonyms?",
+    "options": ["Begin: End", "Big: Large", "Small: Tiny", "Jump: Leap"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: Begin و End متضادان (بداية ونهاية).",
+      "B": "غير صحيح: Big و Large مترادفان.",
+      "C": "غير صحيح: Small و Tiny مترادفان.",
+      "D": "غير صحيح: Jump و Leap مترادفان."
+    }
+  },
+  {
+    "text": "I went to the park with my friends. Which point of view is used?",
+    "options": ["First person", "Second person", "Third person", "Objective"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: استخدام 'I' يدل على ضمير المتكلم (First person).",
+      "B": "غير صحيح: Second person يستخدم 'you'.",
+      "C": "غير صحيح: Third person يستخدم 'he/she/it/they'.",
+      "D": "غير صحيح: الموضوعي (Objective) ليس وجهة نظر أدبية."
+    }
+  },
+  {
+    "text": "You should always finish your homework before playing. Which point of view?",
+    "options": ["First person", "Second person", "Third person", "Narrator"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: First person يستخدم 'I/we'.",
+      "B": "✅ صحيح: استخدام 'You' يدل على المخاطب (Second person).",
+      "C": "غير صحيح: Third person يستخدم 'he/she/it/they'.",
+      "D": "غير صحيح: الراوي ليس وجهة نظر محددة."
+    }
+  },
+  {
+    "text": "He walked to school early in the morning. What point of view?",
+    "options": ["First person", "Second person", "Third person", "Speaker"],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: First person يستخدم 'I'.",
+      "B": "غير صحيح: Second person يستخدم 'you'.",
+      "C": "✅ صحيح: استخدام 'He' يدل على الغائب (Third person).",
+      "D": "غير صحيح: المتحدث (Speaker) ليس وجهة نظر محددة."
+    }
+  },
+  {
+    "text": "Which of the following pronouns is used in first person point of view?",
+    "options": ["He", "They", "I", "You"],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: He من ضمائر الغائب (Third person).",
+      "B": "غير صحيح: They من ضمائر الغائب.",
+      "C": "✅ صحيح: I من ضمائر المتكلم (First person).",
+      "D": "غير صحيح: You من ضمائر المخاطب (Second person)."
+    }
+  },
+  {
+    "text": "Which pronoun is used when the writer speaks directly to the reader?",
+    "options": ["You", "She", "We", "They"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: You تخاطب القارئ مباشرة (Second person).",
+      "B": "غير صحيح: She غائب.",
+      "C": "غير صحيح: We متكلم بصيغة الجمع.",
+      "D": "غير صحيح: They غائب جمع."
+    }
+  },
+  {
+    "text": "Which pronoun shows third person point of view?",
+    "options": ["I", "You", "He", "We"],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: I متكلم.",
+      "B": "غير صحيح: You مخاطب.",
+      "C": "✅ صحيح: He غائب (Third person).",
+      "D": "غير صحيح: We متكلم جمع."
+    }
+  },
+  {
+    "text": "We are going home after school. What point of view?",
+    "options": ["First person", "Second person", "Third person", "None"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: استخدام 'We' يدل على المتكلم الجمع (First person).",
+      "B": "غير صحيح: Second person يستخدم 'you'.",
+      "C": "غير صحيح: Third person يستخدم 'he/she/it/they'.",
+      "D": "غير صحيح: هناك وجهة نظر واضحة."
+    }
+  },
+  {
+    "text": "They are playing in the park. What point of view?",
+    "options": ["First person", "Second person", "Third person", "None"],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: First person يستخدم 'I/we'.",
+      "B": "غير صحيح: Second person يستخدم 'you'.",
+      "C": "✅ صحيح: استخدام 'They' يدل على الغائب (Third person).",
+      "D": "غير صحيح: هناك وجهة نظر واضحة."
+    }
+  },
+  {
+    "text": "If the narrator is part of the story and uses words like 'I' and 'we,' what is the point of view?",
+    "options": ["Third person", "Second person", "First person", "Objective"],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: Third person الراوي خارج القصة.",
+      "B": "غير صحيح: Second person يخاطب القارئ.",
+      "C": "✅ صحيح: First person الراوي جزء من القصة ويستخدم 'I/we'.",
+      "D": "غير صحيح: الموضوعي ليس وجهة نظر أدبية بهذا السياق."
+    }
+  },
+  {
+    "text": "If the narrator is not part of the story and talks about 'he,' 'she,' or 'they,' what is the point of view?",
+    "options": ["First person", "Third person", "Second person", "Speaker"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: First person الراوي داخل القصة.",
+      "B": "✅ صحيح: Third person الراوي خارج القصة ويستخدم 'he/she/it/they'.",
+      "C": "غير صحيح: Second person يخاطب 'you'.",
+      "D": "غير صحيح: المتحدث ليس وجهة نظر محددة."
+    }
+  },
+  {
+    "text": "Running quickly, the bus was missed by Ali. (Identify the issue)",
+    "options": ["Correct", "Dangling modifier", "Compound sentence", "Noun clause"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: الجملة غير صحيحة نحوياً.",
+      "B": "✅ صحيح: هناك تعديل معلق (Dangling modifier)؛ العبارة 'Running quickly' لا ترتبط ب Ali بل بالحافلة.",
+      "C": "غير صحيح: ليست جملة مركبة.",
+      "D": "غير صحيح: ليس جملة اسمية."
+    }
+  },
+  {
+    "text": "She almost drove her kids to school every day. (Identify the issue)",
+    "options": ["Correct", "Misplaced modifier", "Dangling modifier", "Clause"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: الجملة فيها خطأ.",
+      "B": "✅ صحيح: تعديل في غير موضعه (Misplaced modifier). 'Almost' يجب أن يكون قبل 'every day' أو بمعنى 'كادت' لكن وضعها غيّر المعنى.",
+      "C": "غير صحيح: ليس تعديلاً معلقاً.",
+      "D": "غير صحيح: ليست مجرد جملة."
+    }
+  },
+  {
+    "text": "Covered in mud, the dog looked dirty.",
+    "options": ["Correct", "Dangling modifier", "Misplaced modifier", "Compound"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: الجملة صحيحة؛ 'Covered in mud' تصف الكلب.",
+      "B": "غير صحيح: التعديل ليس معلقاً.",
+      "C": "غير صحيح: التعديل في مكانه الصحيح.",
+      "D": "غير صحيح: ليست جملة مركبة."
+    }
+  },
+  {
+    "text": "Walking to school, the rain started.",
+    "options": ["Correct", "Dangling modifier", "Simple sentence", "Noun clause"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: الجملة خطأ.",
+      "B": "✅ صحيح: تعديل معلق (Dangling modifier). 'Walking to school' لا يمكن أن تصف المطر.",
+      "C": "غير صحيح: ليست جملة بسيطة صحيحة.",
+      "D": "غير صحيح: ليس جملة اسمية."
+    }
+  },
+  {
+    "text": "He served sandwiches to the children on paper plates.",
+    "options": ["Correct", "Misplaced modifier", "Dangling modifier", "Clause"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: الجملة غامضة.",
+      "B": "✅ صحيح: تعديل في غير موضعه. العبارة 'on paper plates' قد تصف الأطفال أو السندوتشات.",
+      "C": "غير صحيح: ليس تعديلاً معلقاً.",
+      "D": "غير صحيح: ليست مجرد جملة."
+    }
+  },
+  {
+    "text": "After reading the book, the movie was watched.",
+    "options": ["Correct", "Dangling modifier", "Misplaced modifier", "Compound"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: الجملة خطأ.",
+      "B": "✅ صحيح: تعديل معلق. 'After reading the book' لا يرتبط بمن قرأ.",
+      "C": "غير صحيح: ليس تعديلاً في غير موضعه بهذا الشكل.",
+      "D": "غير صحيح: ليست مركبة."
+    }
+  },
+  {
+    "text": "The girl wearing a red dress is my sister.",
+    "options": ["Correct", "Dangling modifier", "Misplaced modifier", "Clause"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: الجملة صحيحة؛ 'wearing a red dress' تصف الفتاة.",
+      "B": "غير صحيح: لا تعديل معلق.",
+      "C": "غير صحيح: التعديل في مكانه الصحيح.",
+      "D": "غير صحيح: ليست مجرد جملة."
+    }
+  },
+  {
+    "text": "He nearly ate all the pizza.",
+    "options": ["Misplaced modifier", "Correct", "Dangling modifier", "Noun clause"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: تعديل في غير موضعه. 'Nearly' يجب أن يكون قبل 'all' ليعني 'كاد يأكل الكل' وليس 'أكل تقريباً'.",
+      "B": "غير صحيح: الجملة فيها غموض.",
+      "C": "غير صحيح: ليس تعديلاً معلقاً.",
+      "D": "غير صحيح: ليس جملة اسمية."
+    }
+  },
+  {
+    "text": "Driving home, a deer was seen.",
+    "options": ["Correct", "Dangling modifier", "Misplaced modifier", "Compound"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: الجملة خطأ.",
+      "B": "✅ صحيح: تعديل معلق. 'Driving home' لا يرتبط بالأيل.",
+      "C": "غير صحيح: ليس تعديلاً في غير موضعه.",
+      "D": "غير صحيح: ليست مركبة."
+    }
+  },
+  {
+    "text": "The teacher gave homework to the students on Monday.",
+    "options": ["Misplaced modifier", "Correct", "Dangling modifier", "Clause"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: تعديل في غير موضعه. 'on Monday' قد تعدل متى أعطى المعلم الواجب أو متى يجب على الطلاب أداءه.",
+      "B": "غير صحيح: الجملة غامضة.",
+      "C": "غير صحيح: ليس تعديلاً معلقاً.",
+      "D": "غير صحيح: ليست مجرد جملة."
+    }
+  },
+  {
+    "text": "Use a colon to:",
+    "options": ["End a sentence", "Introduce a list", "Show question", "Show emotion"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: النقطة هي من تنهي الجملة.",
+      "B": "✅ صحيح: النقطتان تستخدمان لتقديم قائمة أو شرح.",
+      "C": "غير صحيح: علامة الاستفهام للأسئلة.",
+      "D": "غير صحيح: علامة التعجب للانفعال."
+    }
+  },
+  {
+    "text": "Choose the correct sentence using a colon:",
+    "options": ["I need: apples, bananas, and milk.", "I need apples: bananas and milk.", "I need apples bananas: and milk.", "I need apples bananas and milk:"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: النقطتان بعد جملة كاملة وقبل قائمة.",
+      "B": "غير صحيح: النقطتان في منتصف القائمة.",
+      "C": "غير صحيح: النقطتان في مكان خاطئ.",
+      "D": "غير صحيح: النقطتان في النهاية."
+    }
+  },
+  {
+    "text": "A colon can introduce:",
+    "options": ["A list", "A subject", "A verb", "A pronoun"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: النقطتان تقدم قائمة أو شرحاً.",
+      "B": "غير صحيح: الفاعل لا يسبقه نقطتان.",
+      "C": "غير صحيح: الفعل لا يسبقه نقطتان.",
+      "D": "غير صحيح: الضمير لا يسبقه نقطتان."
+    }
+  },
+  {
+    "text": "Choose the correct sentence:",
+    "options": ["She said: hello", "She said hello:", "She said: \"Hello.\"", "She: said hello"],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: لا توجد مسافة قبل hello ولا اقتباس.",
+      "B": "غير صحيح: النقطتان بعد hello خطأ.",
+      "C": "✅ صحيح: النقطتان قبل الاقتباس وبعد 'She said'.",
+      "D": "غير صحيح: النقطتان بعد She غير صحيحة."
+    }
+  },
+  {
+    "text": "A colon comes after:",
+    "options": ["A fragment", "A complete sentence", "A word", "A phrase"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: النقطتان تأتي بعد جملة كاملة، ليس بعد جزء.",
+      "B": "✅ صحيح: يجب أن تأتي النقطتان بعد جملة تامة المعنى.",
+      "C": "غير صحيح: كلمة واحدة لا تكفي.",
+      "D": "غير صحيح: عبارة قصيرة لا تكفي."
+    }
+  },
+  {
+    "text": "Choose the correct sentence:",
+    "options": ["There are three colors: red, blue, green.", "There are: three colors red, blue, green.", "There are three colors red: blue green.", "There are three colors red blue green."],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: جملة كاملة ثم نقطتان ثم قائمة.",
+      "B": "غير صحيح: النقطتان بعد 'are' خطأ.",
+      "C": "غير صحيح: النقطتان بعد 'red' خطأ.",
+      "D": "غير صحيح: لا نقطتان ولا فواصل."
+    }
+  },
+  {
+    "text": "Colon is used before:",
+    "options": ["A question", "A list or explanation", "A verb", "A noun"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: قبل السؤال نستخدم علامة استفهام.",
+      "B": "✅ صحيح: النقطتان تستخدم قبل قائمة أو شرح.",
+      "C": "غير صحيح: قبل الفعل لا نستخدم نقطتين.",
+      "D": "غير صحيح: قبل الاسم لا نستخدم نقطتين عادة."
+    }
+  },
+  {
+    "text": "Choose the correct sentence:",
+    "options": ["My favorite food is: pizza", "My favorite food is pizza:", "My favorite food is pizza", "My favorite food is: pizza,"],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: النقطتان غير ضرورية هنا.",
+      "B": "غير صحيح: النقطتان في النهاية خطأ.",
+      "C": "✅ صحيح: الجملة كاملة بدون نقطتان لأن القائمة مكونة من عنصر واحد.",
+      "D": "غير صحيح: فاصلة بعد pizza خطأ."
+    }
+  },
+  {
+    "text": "A colon is NOT used for:",
+    "options": ["Lists", "Explanations", "Ending questions", "Emphasis"],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: النقطتان تستخدم للقوائم.",
+      "B": "غير صحيح: النقطتان تستخدم للتفسير.",
+      "C": "✅ صحيح: النقطتان لا تستخدم لإنهاء الأسئلة؛ بل علامة الاستفهام.",
+      "D": "غير صحيح: النقطتان تستخدم للتوكيد أحياناً."
+    }
+  },
+  {
+    "text": "Choose the correct sentence:",
+    "options": ["He bought: shoes, socks, and hats.", "He bought shoes: socks and hats.", "He bought shoes socks: and hats.", "He bought shoes socks and hats:"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: جملة كاملة ثم نقطتان ثم قائمة.",
+      "B": "غير صحيح: النقطتان في منتصف القائمة.",
+      "C": "غير صحيح: النقطتان قبل 'and' خطأ.",
+      "D": "غير صحيح: النقطتان في النهاية."
+    }
+  },
+  {
+    "text": "A main clause:",
+    "options": ["Cannot stand alone", "Can stand alone", "Is a phrase", "Is a noun"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: الجملة الرئيسية يمكن أن تقف وحدها.",
+      "B": "✅ صحيح: الجملة الرئيسية (Main clause) لها معنى كامل وتقوم وحدها.",
+      "C": "غير صحيح: هي جملة وليست عبارة.",
+      "D": "غير صحيح: ليست اسماً."
+    }
+  },
+  {
+    "text": "A noun is:",
+    "options": ["An action", "A describing word", "A person, place, or thing", "A clause"],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: الفعل (verb) هو action.",
+      "B": "غير صحيح: الصفة (adjective) تصف.",
+      "C": "✅ صحيح: الاسم (noun) هو شخص أو مكان أو شيء.",
+      "D": "غير صحيح: الجملة (clause) شيء آخر."
+    }
+  },
+  {
+    "text": "What he said is true. The clause 'What he said' is:",
+    "options": ["Verb clause", "Noun clause", "Adjective clause", "Main clause"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: ليس جملة فعلية.",
+      "B": "✅ صحيح: 'What he said' تعمل كاسم (Noun clause) فاعل للجملة.",
+      "C": "غير صحيح: ليست جملة صفة.",
+      "D": "غير صحيح: هي جملة اسمية وليست رئيسية."
+    }
+  },
+  {
+    "text": "Identify the noun:",
+    "options": ["Run", "Quickly", "Table", "Blue"],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: Run فعل.",
+      "B": "غير صحيح: Quickly ظرف.",
+      "C": "✅ صحيح: Table اسم (شيء).",
+      "D": "غير صحيح: Blue صفة."
+    }
+  },
+  {
+    "text": "A noun clause functions as:",
+    "options": ["Verb", "Noun", "Adjective", "Adverb"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: لا تعمل كفعل.",
+      "B": "✅ صحيح: جملة الاسم (Noun clause) تعمل كاسم.",
+      "C": "غير صحيح: ليست صفة.",
+      "D": "غير صحيح: ليست حالاً."
+    }
+  },
+  {
+    "text": "She knows that he is honest. The clause 'that he is honest' is:",
+    "options": ["Noun clause", "Main clause only", "Adjective clause", "Phrase"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'that he is honest' تعمل كمفعول به للفعل knows (Noun clause).",
+      "B": "غير صحيح: ليست جملة رئيسية.",
+      "C": "غير صحيح: ليست جملة صفة.",
+      "D": "غير صحيح: هي جملة وليست عبارة."
+    }
+  },
+  {
+    "text": "A main clause has:",
+    "options": ["Subject and verb", "Only verb", "Only subject", "No meaning"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: الجملة الرئيسية تحتوي على فاعل وفعل.",
+      "B": "غير صحيح: تحتاج فاعلاً أيضاً.",
+      "C": "غير صحيح: تحتاج فعلاً أيضاً.",
+      "D": "غير صحيح: لها معنى كامل."
+    }
+  },
+  {
+    "text": "Where he lives is unknown. The clause 'Where he lives' is:",
+    "options": ["Noun clause", "Main clause", "Phrase", "Verb"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'Where he lives' تعمل كاسم (فاعل) للجملة.",
+      "B": "غير صحيح: ليست جملة رئيسية.",
+      "C": "غير صحيح: هي جملة وليست عبارة.",
+      "D": "غير صحيح: ليست فعلاً."
+    }
+  },
+  {
+    "text": "Identify the main clause:",
+    "options": ["When he arrived", "Because she was late", "She finished her work", "After the rain"],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: جملة زمانية فرعية.",
+      "B": "غير صحيح: جملة سببية فرعية.",
+      "C": "✅ صحيح: 'She finished her work' جملة رئيسية كاملة.",
+      "D": "غير صحيح: عبارة زمانية."
+    }
+  },
+  {
+    "text": "Noun clause usually starts with:",
+    "options": ["Because", "That / What / Where", "And", "But"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: 'Because' تبدأ جملة سبب.",
+      "B": "✅ صحيح: جمل الاسم غالباً تبدأ بـ That, What, Where, Who, etc.",
+      "C": "غير صحيح: 'And' حرف عطف.",
+      "D": "غير صحيح: 'But' حرف عطف."
+    }
+  },
+  {
+    "text": "A simple sentence has:",
+    "options": ["Two clauses", "One clause", "No verb", "Two verbs"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: جملة بسيطة تحتوي على جملة واحدة.",
+      "B": "✅ صحيح: الجملة البسيطة تحتوي على جملة واحدة (Main clause).",
+      "C": "غير صحيح: لا بد من فعل.",
+      "D": "غير صحيح: قد يكون فعل واحد أو أكثر لكن تبقى جملة واحدة."
+    }
+  },
+  {
+    "text": "A compound sentence has:",
+    "options": ["One clause", "Two independent clauses", "No subject", "One phrase"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: الجملة المركبة تحتاج جملتين مستقلتين.",
+      "B": "✅ صحيح: الجملة المركبة (Compound sentence) تحتوي على جملتين رئيسيتين مستقلتين.",
+      "C": "غير صحيح: لكل جملة فاعل.",
+      "D": "غير صحيح: ليست عبارة واحدة."
+    }
+  },
+  {
+    "text": "I like tea and coffee.",
+    "options": ["Compound", "Complex", "Simple", "Clause"],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: ليست مركبة لأنها تحتوي على فاعل واحد وفعل واحد.",
+      "B": "غير صحيح: ليست معقدة.",
+      "C": "✅ صحيح: جملة بسيطة (Simple) لأن 'tea and coffee' مفعول به مركب وليس جملة ثانية.",
+      "D": "غير صحيح: هي جملة وليست مجرد clause."
+    }
+  },
+  {
+    "text": "I like tea, and she likes coffee.",
+    "options": ["Simple", "Clause", "Phrase", "Compound"],
+    "correct": "D",
+    "explanation": {
+      "A": "غير صحيح: ليست بسيطة.",
+      "B": "غير صحيح: تحتوي على جملتين.",
+      "C": "غير صحيح: ليست عبارة.",
+      "D": "✅ صحيح: جملة مركبة (Compound) لأنها تحتوي على جملتين مستقلتين مرتبطتين بـ 'and'."
+    }
+  },
+  {
+    "text": "FANBOYS are:",
+    "options": ["Verbs", "Conjunctions", "Nouns", "Adjectives"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: ليست أفعالاً.",
+      "B": "✅ صحيح: FANBOYS هي حروف العطف (For, And, Nor, But, Or, Yet, So).",
+      "C": "غير صحيح: ليست أسماء.",
+      "D": "غير صحيح: ليست صفات."
+    }
+  },
+  {
+    "text": "She runs every day.",
+    "options": ["Simple", "Compound", "Complex", "Phrase"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: جملة بسيطة (فاعل + فعل + مفعول به من حيث المعنى).",
+      "B": "غير صحيح: ليست مركبة.",
+      "C": "غير صحيح: ليست معقدة.",
+      "D": "غير صحيح: هي جملة كاملة."
+    }
+  },
+  {
+    "text": "He studied, so he passed.",
+    "options": ["Compound", "Simple", "Phrase", "Fragment"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: جملة مركبة (جملتان مستقلتان مرتبطتان بـ 'so').",
+      "B": "غير صحيح: ليست بسيطة.",
+      "C": "غير صحيح: ليست عبارة.",
+      "D": "غير صحيح: ليست شظية."
+    }
+  },
+  {
+    "text": "A compound sentence uses:",
+    "options": ["Comma + conjunction", "Only comma", "Only verb", "Only noun"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: الجملة المركبة تستخدم فاصلة + حرف عطف (مثل and, but, so).",
+      "B": "غير صحيح: الفاصلة وحدها لا تكفي (خطأ الفاصلة المنفصلة).",
+      "C": "غير صحيح: تحتاج أكثر من فعل.",
+      "D": "غير صحيح: تحتاج أكثر من اسم."
+    }
+  },
+  {
+    "text": "They played, and we watched.",
+    "options": ["Simple", "Compound", "Phrase", "Clause"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: ليست بسيطة.",
+      "B": "✅ صحيح: جملة مركبة (جملتان مستقلتان مرتبطتان بـ 'and').",
+      "C": "غير صحيح: ليست عبارة.",
+      "D": "غير صحيح: هي جملة كاملة."
+    }
+  },
+  {
+    "text": "The cat slept.",
+    "options": ["Compound", "Simple", "Complex", "Fragment"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: ليست مركبة.",
+      "B": "✅ صحيح: جملة بسيطة (فاعل + فعل).",
+      "C": "غير صحيح: ليست معقدة.",
+      "D": "غير صحيح: جملة كاملة."
+    }
+  },
+  {
+    "text": "Which of the following best describes the meaning of the word 'elaborate' when giving an explanation?",
+    "options": ["Short", "Angry", "Detailed", "Simple"],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: 'Elaborate' تعني مفصل، وليس قصيراً.",
+      "B": "غير صحيح: لا علاقة لها بالغضب.",
+      "C": "✅ صحيح: 'Elaborate' تعني مفصل أو دقيق.",
+      "D": "غير صحيح: عكس simple."
+    }
+  },
+  {
+    "text": "Which sentence correctly uses the word 'anxious' to show a feeling of worry or excitement?",
+    "options": ["He was anxious a chair.", "They anxious quickly.", "She was anxious to start the exam.", "The book is anxious."],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: تركيب غير صحيح.",
+      "B": "غير صحيح: 'anxious' لا تستخدم هكذا.",
+      "C": "✅ صحيح: 'She was anxious to start the exam' تعني كانت قلقة/متحمسة لبدء الامتحان.",
+      "D": "غير صحيح: الكتاب لا يمكن أن يكون قلقاً."
+    }
+  },
+  {
+    "text": "If someone speaks courteously to others, how are they speaking?",
+    "options": ["Politely", "Rudely", "Slowly", "Loudly"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'Courteously' تعني بأدب.",
+      "B": "غير صحيح: العكس هو بوقاحة.",
+      "C": "غير صحيح: لا علاقة لها بالسرعة.",
+      "D": "غير صحيح: لا علاقة لها بالجهارة."
+    }
+  },
+  {
+    "text": "A teacher asked students to answer questions about their favorite subject. What is this activity called?",
+    "options": ["A game", "A collection of information", "A building", "A type of food"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: ليس لعبة بالضرورة.",
+      "B": "✅ صحيح: جمع معلومات (survey or questionnaire).",
+      "C": "غير صحيح: ليس مبنى.",
+      "D": "غير صحيح: ليس طعاماً."
+    }
+  },
+  {
+    "text": "When the principal declared the winners in front of the school, what did she do?",
+    "options": ["Hid the results", "Forgot the names", "Whispered quietly", "Announced clearly"],
+    "correct": "D",
+    "explanation": {
+      "A": "غير صحيح: أعلنت، لم تخف.",
+      "B": "غير صحيح: لم تنس.",
+      "C": "غير صحيح: لم تهمس.",
+      "D": "✅ صحيح: 'Declared' تعني أعلنت بوضوح."
+    }
+  },
+  {
+    "text": "When we talk about a 'process,' what are we usually referring to?",
+    "options": ["A mistake", "A place", "A series of steps", "A single moment"],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: ليس خطأ.",
+      "B": "غير صحيح: ليس مكاناً.",
+      "C": "✅ صحيح: 'Process' تعني سلسلة من الخطوات.",
+      "D": "غير صحيح: تمتد على فترة."
+    }
+  },
+  {
+    "text": "If a task takes a long time and feels very boring, how can it be described?",
+    "options": ["Quick", "Easy", "Boring and long", "Interesting"],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: العكس سريع.",
+      "B": "غير صحيح: ليس سهلاً بالضرورة.",
+      "C": "✅ صحيح: ممل وطويل (tedious or monotonous).",
+      "D": "غير صحيح: مثير للاهتمام عكس الممل."
+    }
+  },
+  {
+    "text": "When we say a student has great merit, what do we mean?",
+    "options": ["Speed", "Value or worth", "Color", "Size"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: لا تعني سرعة.",
+      "B": "✅ صحيح: 'Merit' تعني قيمة أو استحقاق.",
+      "C": "غير صحيح: لا علاقة لها باللون.",
+      "D": "غير صحيح: لا علاقة لها بالحجم."
+    }
+  },
+  {
+    "text": "If someone was deceived by a friend, what happened to them?",
+    "options": ["Ignored someone", "Told the truth", "Helped someone", "Tricked someone"],
+    "correct": "D",
+    "explanation": {
+      "A": "غير صحيح: ليس تجاهلاً.",
+      "B": "غير صحيح: عكس قول الحقيقة.",
+      "C": "غير صحيح: عكس المساعدة.",
+      "D": "✅ صحيح: 'Deceived' تعني خدع أو غش."
+    }
+  },
+  {
+    "text": "When the teacher asked the students to cease talking, what did she want them to do?",
+    "options": ["Continue", "Begin", "Grow", "Stop"],
+    "correct": "D",
+    "explanation": {
+      "A": "غير صحيح: عكس الاستمرار.",
+      "B": "غير صحيح: عكس البدء.",
+      "C": "غير صحيح: لا علاقة له بالنمو.",
+      "D": "✅ صحيح: 'Cease' تعني توقف."
+    }
+  },
+  {
+    "text": "If a city is hit by a huge earthquake causing great damage, what is this event called?",
+    "options": ["A disaster", "A small problem", "A plan", "A happy event"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: زلزال مدمر هو كارثة (disaster).",
+      "B": "غير صحيح: ليس مشكلة صغيرة.",
+      "C": "غير صحيح: ليس خطة.",
+      "D": "غير صحيح: ليس حدثاً سعيداً."
+    }
+  },
+  {
+    "text": "Schools often hold events to remember important national days. What does it mean to commemorate something?",
+    "options": ["Break", "Celebrate or remember", "Hide", "Forget"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: ليس كسراً.",
+      "B": "✅ صحيح: 'Commemorate' تعني تحتفل أو تذكر.",
+      "C": "غير صحيح: ليس إخفاء.",
+      "D": "غير صحيح: عكس النسيان."
+    }
+  },
+  {
+    "text": "Which item would you most likely use when washing clothes or cleaning dirty surfaces?",
+    "options": ["Writing tool", "Driving tool", "Cleaning substance", "Cooking item"],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: أداة كتابة ليست للتنظيف.",
+      "B": "غير صحيح: أداة قيادة ليست للتنظيف.",
+      "C": "✅ صحيح: مادة تنظيف (مثل صابون أو منظف).",
+      "D": "غير صحيح: أداة طبخ ليست للتنظيف."
+    }
+  },
+  {
+    "text": "When you look through a kaleidoscope, what do you usually see?",
+    "options": ["Numbers", "Sounds", "Words", "Colorful changing patterns"],
+    "correct": "D",
+    "explanation": {
+      "A": "غير صحيح: لا ترى أرقاماً.",
+      "B": "غير صحيح: لا تسمع أصواتاً.",
+      "C": "غير صحيح: لا ترى كلمات.",
+      "D": "✅ صحيح: المشكال (kaleidoscope) يظهر أنماطاً ملونة متغيرة."
+    }
+  },
+  {
+    "text": "If an artist paints a large picture directly on a wall in a school or building, what is this called?",
+    "options": ["A small book", "A wall painting", "A tool", "A type of food"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: ليس كتاباً صغيراً.",
+      "B": "✅ صحيح: لوحة جدارية (mural).",
+      "C": "غير صحيح: ليس أداة.",
+      "D": "غير صحيح: ليس طعاماً."
+    }
+  },
+  {
+    "text": "Why did Ahmed go to the library?",
+    "options": ["To play games", "To meet friends", "To read books", "To sleep"],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: النص يقول 'To read his favorite books'.",
+      "B": "غير صحيح: لم يذكر لقاء أصدقاء.",
+      "C": "✅ صحيح: 'Ahmed loved visiting the library... to read his favorite books'.",
+      "D": "غير صحيح: لم يذكر النوم."
+    }
+  },
+  {
+    "text": "What kind of book did Ahmed find?",
+    "options": ["A history book", "A space book", "A storybook", "A math book"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: ليس تاريخاً.",
+      "B": "✅ صحيح: 'he found a book about space'.",
+      "C": "غير صحيح: ليس قصة.",
+      "D": "غير صحيح: ليس رياضيات."
+    }
+  },
+  {
+    "text": "What did Ahmed do after borrowing the book?",
+    "options": ["Read and took notes", "Ignored it", "Gave it away", "Lost it"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'Every evening, he spent time reading and writing notes'.",
+      "B": "غير صحيح: لم يتجاهله.",
+      "C": "غير صحيح: لم يعطه لأحد.",
+      "D": "غير صحيح: لم يضعه."
+    }
+  },
+  {
+    "text": "What did Ahmed dream of becoming?",
+    "options": ["A teacher", "An astronaut", "A doctor", "A pilot"],
+    "correct": "B",
+    "explanation": {
+      "A": "غير صحيح: ليس معلماً.",
+      "B": "✅ صحيح: 'dreaming of becoming an astronaut'.",
+      "C": "غير صحيح: ليس طبيباً.",
+      "D": "غير صحيح: ليس طياراً."
+    }
+  },
+  {
+    "text": "Who encouraged Ahmed to join the science club?",
+    "options": ["His friend", "His father", "His teacher", "The librarian"],
+    "correct": "C",
+    "explanation": {
+      "A": "غير صحيح: ليس صديقه.",
+      "B": "غير صحيح: ليس والده.",
+      "C": "✅ صحيح: 'His teacher noticed his passion and encouraged him'.",
+      "D": "غير صحيح: ليس أمين المكتبة."
+    }
+  }
+]
