@@ -1,0 +1,57 @@
+[
+    {
+        "text": "Sarah looked at the dark clouds, grabbed her umbrella, and left quickly. What can we infer?",
+        "options": ["It is sunny", "It might rain", "She is late", "She lost something"],
+        "correct": "B",
+        "explanation": {
+            "A": "السماء مشمسة لا تتوافق مع الغيوم الداكنة والمظلة.",
+            "B": "صحيح: الغيوم الداكنة والمظلة يدلان على توقع المطر.",
+            "C": "لا يوجد دليل على أنها متأخرة.",
+            "D": "لا يوجد ذكر لفقدان شيء."
+        }
+    },
+    {
+        "text": "Tom slammed the door, crossed his arms, and refused to speak to anyone. What does this suggest?",
+        "options": ["He is tired", "He is happy", "He is upset", "He is hungry"],
+        "correct": "C",
+        "explanation": {
+            "A": "التعب لا يسبب عادة غلق الباب بعنف.",
+            "B": "الشخص السعيد لا يتصرف هكذا.",
+            "C": "صحيح: هذه كلها علامات الغضب أو الانزعاج.",
+            "D": "الجوع لا يرتبط بهذه التصرفات."
+        }
+    },
+    {
+        "text": "The ground is wet, the sky is cloudy, and people are carrying umbrellas. What most likely happened?",
+        "options": ["It snowed", "It rained", "It is windy", "It is hot"],
+        "correct": "B",
+        "explanation": {
+            "A": "الثلج نادراً ما يجعل الناس يحملون مظلات.",
+            "B": "صحيح: المطر يبلل الأرض ويجعل الناس تستخدم المظلات.",
+            "C": "الرياح وحدها لا تبلل الأرض.",
+            "D": "الجو الحار لا يتوافق مع المظلات."
+        }
+    },
+    {
+        "text": "Ali studied all night for his test and kept yawning during class the next day. What can we infer?",
+        "options": ["He is excited", "He is bored", "He is tired", "He is hungry"],
+        "correct": "C",
+        "explanation": {
+            "A": "الإثارة لا تسبب التثاؤب.",
+            "B": "التثاؤب قد يعني الملل لكن الدراسة طوال الليل تشير للإرهاق.",
+            "C": "صحيح: السهر يسبب التعب والتثاؤب.",
+            "D": "الجوع ليس له علاقة بالسهر."
+        }
+    },
+    {
+        "text": "The lights are off, the doors are locked, and no cars are in the driveway. What does this suggest?",
+        "options": ["Someone is cooking", "The house is empty", "A party is happening", "Someone is sleeping"],
+        "correct": "B",
+        "explanation": {
+            "A": "الطبخ يتطلب وجود شخص وإضاءة.",
+            "B": "صحيح: الأضواء مطفية، الأبواب مقفلة، ولا سيارات يعني المنزل خالٍ.",
+            "C": "الحفلة تحتاج أضواء وسيارات.",
+            "D": "النوم لا يمنع وجود سيارات في الممر."
+        }
+    }
+]
