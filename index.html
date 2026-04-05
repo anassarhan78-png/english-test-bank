@@ -5,11 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>بنك الاختبارات - شامل + مفردات</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -26,7 +22,6 @@
             box-shadow: 0 20px 40px rgba(0,0,0,0.2);
             overflow: hidden;
         }
-        /* شريط التبويب */
         .tab-bar {
             display: flex;
             background: #f0f2f5;
@@ -43,29 +38,23 @@
             background: #f0f2f5;
             color: #2c3e6d;
         }
-        .tab i {
-            margin-left: 8px;
-        }
+        .tab i { margin-left: 8px; }
         .tab.active {
             background: white;
             color: #007bff;
             border-bottom: 3px solid #007bff;
             border-radius: 20px 20px 0 0;
         }
-        .content {
-            padding: 25px;
-        }
-        h1 {
-            text-align: center;
-            color: #2c3e6d;
-            margin-bottom: 10px;
-            font-size: 1.8rem;
-        }
-        .progress {
-            text-align: center;
-            color: #666;
+        .content { padding: 25px; }
+        h1 { text-align: center; color: #2c3e6d; margin-bottom: 10px; font-size: 1.8rem; }
+        .progress { text-align: center; color: #666; margin-bottom: 20px; font-size: 1rem; }
+        .passage {
+            background: #f0f7ff;
+            padding: 15px;
+            border-radius: 12px;
             margin-bottom: 20px;
-            font-size: 1rem;
+            border-right: 5px solid #007bff;
+            line-height: 1.6;
         }
         .question {
             font-size: 1.3rem;
@@ -74,11 +63,8 @@
             padding: 15px;
             background: #f8f9fa;
             border-radius: 12px;
-            line-height: 1.5;
         }
-        .options {
-            margin-bottom: 25px;
-        }
+        .options { margin-bottom: 25px; }
         .option {
             display: block;
             margin: 12px 0;
@@ -86,35 +72,18 @@
             background: #eef2f5;
             border-radius: 12px;
             cursor: pointer;
-            transition: all 0.2s;
+            transition: 0.2s;
             border: 2px solid transparent;
         }
-        .option:hover {
-            background: #e0e7ed;
-            transform: scale(1.01);
-        }
-        .option.selected {
-            background: #007bff;
-            color: white;
-            border-color: #0056b3;
-        }
+        .option:hover { background: #e0e7ed; transform: scale(1.01); }
+        .option.selected { background: #007bff; color: white; border-color: #0056b3; }
         .feedback {
             margin: 20px 0;
             padding: 15px;
             border-radius: 12px;
-            font-size: 0.95rem;
-            line-height: 1.5;
         }
-        .feedback.correct {
-            background: #d4edda;
-            color: #155724;
-            border-right: 5px solid #28a745;
-        }
-        .feedback.wrong {
-            background: #f8d7da;
-            color: #721c24;
-            border-right: 5px solid #dc3545;
-        }
+        .feedback.correct { background: #d4edda; color: #155724; border-right: 5px solid #28a745; }
+        .feedback.wrong { background: #f8d7da; color: #721c24; border-right: 5px solid #dc3545; }
         button {
             background: #28a745;
             color: white;
@@ -125,39 +94,14 @@
             font-size: 1rem;
             font-weight: bold;
             margin-left: 10px;
-            transition: 0.2s;
         }
-        button:hover {
-            background: #218838;
-            transform: scale(1.02);
-        }
-        #next-btn {
-            background: #007bff;
-        }
-        #next-btn:hover {
-            background: #0056b3;
-        }
-        .result-box {
-            text-align: center;
-            margin-top: 20px;
-            padding: 20px;
-            background: #e9ecef;
-            border-radius: 15px;
-        }
-        footer {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 0.8rem;
-            color: #666;
-            padding-bottom: 20px;
-        }
-        @media (max-width: 600px) {
-            .content { padding: 15px; }
-            .question { font-size: 1.1rem; }
-            .tab { font-size: 0.9rem; }
-        }
+        button:hover { background: #218838; transform: scale(1.02); }
+        #next-btn { background: #007bff; }
+        #next-btn:hover { background: #0056b3; }
+        .result-box { text-align: center; margin-top: 20px; padding: 20px; background: #e9ecef; border-radius: 15px; }
+        footer { text-align: center; margin-top: 20px; font-size: 0.8rem; color: #666; }
+        @media (max-width: 600px) { .content { padding: 15px; } .question { font-size: 1.1rem; } }
     </style>
-    <!-- Font Awesome للأيقونات -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
@@ -181,15 +125,23 @@
 
 <script>
     let questions = [];
-    let currentMode = 'full'; // 'full' or 'vocab'
+    let currentMode = 'full';
     let currentIndex = 0;
     let selectedAnswer = null;
-    let quizContainer = document.getElementById('quiz-container');
-    let submitBtn = document.getElementById('submit-btn');
-    let nextBtn = document.getElementById('next-btn');
-    let progressDiv = document.getElementById('progress');
-    let resultDiv = document.getElementById('result');
-    let modeTitle = document.getElementById('mode-title');
+    let score = 0;
+
+    // نص قطعة أحمد للاختبار الأول
+    const ahmedPassage = `📖 <strong>النص: أحمد يحب المكتبة</strong><br><br>
+    Ahmed loved visiting the library after school. It was a quiet place where he could read his favorite books and learn new things. One day, he found a book about space. He was amazed by the pictures of planets and stars. Ahmed decided to learn more about space, so he borrowed the book. Every evening, he spent time reading and writing notes. His interest grew stronger, and he started dreaming of becoming an astronaut one day. His teacher noticed his passion and encouraged him to join the school science club. Ahmed felt happy and excited because he could now learn even more and share his ideas with others.`;
+
+    function showPassageIfNeeded(questionText) {
+        if (currentMode !== 'full') return '';
+        // إذا كان السؤال يتعلق بقطعة أحمد (أسئلة المكتبة)
+        if (questionText.includes("Ahmed") || questionText.includes("library") || questionText.includes("space book") || questionText.includes("astronaut") || questionText.includes("science club")) {
+            return `<div class="passage">${ahmedPassage}</div>`;
+        }
+        return '';
+    }
 
     async function loadQuestions() {
         const fileName = (currentMode === 'full') ? 'questions.json' : 'vocabulary.json';
@@ -198,103 +150,98 @@
             if (!response.ok) throw new Error(`الملف ${fileName} غير موجود`);
             questions = await response.json();
             if (questions.length === 0) throw new Error('الملف فارغ');
-            // التأكد من وجود explanation لكل خيار
-            questions.forEach((q, idx) => {
-                if (!q.explanation) q.explanation = {};
-                const letters = ['A','B','C','D'];
-                letters.forEach(letter => {
-                    if (!q.explanation[letter]) q.explanation[letter] = "تأمل الخيارات جيداً.";
-                });
-            });
             currentIndex = 0;
-            selectedAnswer = null;
-            updateTitle();
+            score = 0;
+            updateUI();
             showQuestion();
         } catch (err) {
-            quizContainer.innerHTML = `<div style="color:red; padding:20px;">⚠️ خطأ في تحميل الأسئلة: ${err.message}. تأكد من وجود ملف ${fileName} بصيغة صحيحة.</div>`;
-            console.error(err);
+            document.getElementById('quiz-container').innerHTML = `<div style="color:red; padding:20px;">⚠️ خطأ: ${err.message}</div>`;
         }
     }
 
-    function updateTitle() {
-        if (currentMode === 'full') {
-            modeTitle.innerHTML = '<i class="fas fa-database"></i> بنك الأسئلة الشامل';
-            progressDiv.style.display = 'block';
-        } else {
-            modeTitle.innerHTML = '<i class="fas fa-book-open"></i> اختبار المفردات (معاني الكلمات)';
-            progressDiv.style.display = 'block';
-        }
+    function updateUI() {
+        document.getElementById('total-q-num').innerText = questions.length;
+        document.getElementById('score-count').innerText = score;
+        const percent = ((currentIndex) / questions.length) * 100;
+        document.getElementById('progress-fill').style.width = percent + '%';
+        document.getElementById('current-q-num').innerText = currentIndex+1;
+        const title = (currentMode === 'full') ? '📚 الاختبار الشامل' : '📖 اختبار المفردات (معاني الكلمات)';
+        document.getElementById('mode-title').innerHTML = (currentMode === 'full') ? '<i class="fas fa-database"></i> بنك الأسئلة الشامل' : '<i class="fas fa-book-open"></i> اختبار المفردات';
     }
 
     function showQuestion() {
-        if (!questions.length || currentIndex >= questions.length) {
-            finishQuiz();
-            return;
-        }
         const q = questions[currentIndex];
-        progressDiv.innerText = `السؤال ${currentIndex+1} من ${questions.length}`;
-        let optionsHtml = '';
+        let html = showPassageIfNeeded(q.text);
+        html += `<div class="question">${q.text}</div>`;
+        html += `<div class="options">`;
         const letters = ['A', 'B', 'C', 'D'];
         q.options.forEach((opt, idx) => {
             const letter = letters[idx];
-            optionsHtml += `<div class="option" data-letter="${letter}">${letter}. ${opt}</div>`;
+            html += `<div class="option" data-letter="${letter}">${letter}. ${opt}</div>`;
         });
-        quizContainer.innerHTML = `
-            <div class="question">${q.text}</div>
-            <div class="options">${optionsHtml}</div>
-            <div id="feedback"></div>
-        `;
+        html += `</div><div id="feedback"></div>`;
+        document.getElementById('quiz-container').innerHTML = html;
+        attachEvents();
+        document.getElementById('submit-btn').style.display = 'inline-block';
+        document.getElementById('next-btn').style.display = 'none';
+        selectedAnswer = null;
+        updateUI();
+    }
+
+    function attachEvents() {
         document.querySelectorAll('.option').forEach(opt => {
-            opt.addEventListener('click', () => {
+            opt.onclick = () => {
                 document.querySelectorAll('.option').forEach(o => o.classList.remove('selected'));
                 opt.classList.add('selected');
                 selectedAnswer = opt.getAttribute('data-letter');
-            });
+            };
         });
-        resultDiv.innerHTML = '';
-        submitBtn.style.display = 'inline-block';
-        nextBtn.style.display = 'none';
-        selectedAnswer = null;
     }
 
-    function checkAnswer() {
+    document.getElementById('submit-btn').onclick = () => {
         if (!selectedAnswer) {
             alert('الرجاء اختيار إجابة أولاً');
             return;
         }
         const q = questions[currentIndex];
         const isCorrect = (selectedAnswer === q.correct);
-        const feedbackDiv = document.getElementById('feedback');
-        const explanation = q.explanation[selectedAnswer] || "لا يوجد شرح تفصيلي.";
-        const correctExplanation = q.explanation[q.correct] || `الإجابة الصحيحة هي ${q.correct}.`;
-        
+        const fb = document.getElementById('feedback');
         if (isCorrect) {
-            feedbackDiv.innerHTML = `<div class="feedback correct">✅ صحيح! ${explanation}</div>`;
+            score++;
+            fb.innerHTML = `<div class="feedback correct">✅ صحيح! ${q.explanation[selectedAnswer]}</div>`;
         } else {
-            feedbackDiv.innerHTML = `<div class="feedback wrong">❌ خطأ. إجابتك (${selectedAnswer}) غير صحيحة. ${explanation}<br><strong>✅ الصحيح: ${q.correct}</strong> — ${correctExplanation}</div>`;
+            fb.innerHTML = `<div class="feedback wrong">❌ خطأ. إجابتك (${selectedAnswer}) غير صحيحة. ${q.explanation[selectedAnswer]}<br><strong>✅ الصحيح: ${q.correct}</strong> — ${q.explanation[q.correct]}</div>`;
         }
-        submitBtn.style.display = 'none';
-        nextBtn.style.display = 'inline-block';
-    }
+        document.getElementById('submit-btn').style.display = 'none';
+        document.getElementById('next-btn').style.display = 'inline-block';
+        updateUI();
+    };
 
-    function nextQuestion() {
+    document.getElementById('next-btn').onclick = () => {
         currentIndex++;
         if (currentIndex < questions.length) {
             showQuestion();
         } else {
-            finishQuiz();
+            const total = questions.length;
+            const percentScore = Math.round((score / total) * 100);
+            let medal = (percentScore >= 90) ? '🏆 ممتاز! أنت نجم' : (percentScore >= 70) ? '🎉 جيد جداً' : '💪 استمر في التدريب';
+            document.getElementById('quiz-container').innerHTML = `
+                <div class="result-box">
+                    <i class="fas fa-flag-checkered" style="font-size:3rem; color:#28a745;"></i>
+                    <h2>🎊 انتهى الاختبار 🎊</h2>
+                    <p>إجاباتك الصحيحة: ${score} من ${total}</p>
+                    <p>⭐ النسبة: ${percentScore}% ⭐</p>
+                    <p>${medal}</p>
+                    <button onclick="location.reload()" style="margin-top:15px;">إعادة الاختبار</button>
+                </div>`;
+            document.getElementById('next-btn').style.display = 'none';
+            document.getElementById('submit-btn').style.display = 'none';
+            document.getElementById('progress-fill').style.width = '100%';
         }
-    }
+        updateUI();
+    };
 
-    function finishQuiz() {
-        quizContainer.innerHTML = `<div class="result-box"><h2>🎉 تهانينا! 🎉</h2><p>لقد أكملت جميع الأسئلة (${questions.length} سؤالاً).</p><p>يمكنك تحديث الصفحة للبدء من جديد.</p></div>`;
-        submitBtn.style.display = 'none';
-        nextBtn.style.display = 'none';
-        progressDiv.innerText = `انتهى الاختبار 🏁`;
-        resultDiv.innerHTML = '';
-    }
-
-    // التبديل بين الوضعين
+    // التبديل بين التبويبين
     document.querySelectorAll('.tab').forEach(tab => {
         tab.addEventListener('click', () => {
             const mode = tab.getAttribute('data-mode');
@@ -306,10 +253,10 @@
         });
     });
 
-    submitBtn.addEventListener('click', checkAnswer);
-    nextBtn.addEventListener('click', nextQuestion);
-
-    // تحميل أولي
+    // إضافة عناصر وهمية لشريط التقدم (نضيفها ديناميكياً)
+    const progressDiv = document.getElementById('progress');
+    progressDiv.innerHTML = `<div class="progress-stats"><span><i class="fas fa-question-circle"></i> <span id="current-q-num">0</span> / <span id="total-q-num">0</span></span><span><i class="fas fa-trophy"></i> النقاط: <span id="score-count">0</span></span></div><div class="progress-bar-container"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>`;
+    
     loadQuestions();
 </script>
 </body>
